@@ -7,13 +7,14 @@
 
 # Airflow cluster definition
 
-First, you need to create a VPC network with three subnets, bucket for DAG-files and service account with role "managed-airflow.integrationProvider".
+First, you need to create a VPC network with three subnets, bucket for DAG-files, and service account with role "managed-airflow.integrationProvider".
 
 Airflow module requires the following input variables:
   - Folder ID.
   - VPC network subnet IDs.
   - Service Account ID.
   - Bucket Name.
+  - Admin Password.
   
 ### Example
 
