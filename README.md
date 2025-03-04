@@ -17,7 +17,7 @@ Airflow module requires the following input variables:
   
 ### Example
 
-See [examples section](./examples/)
+See [examples section](./.examples/)
 
 ### How to configure Terraform for Yandex Cloud
 
