@@ -38,7 +38,7 @@ resource "yandex_airflow_cluster" "my_airflow_cluster" {
   deb_packages = var.deb_packages
 
   lockbox_secrets_backend = {
-    enabled = false
+    enabled = var.lockbox_secrets_backende
   }
 
   logging = {

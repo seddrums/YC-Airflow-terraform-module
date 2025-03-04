@@ -101,6 +101,12 @@ variable "logging" {
   default     = false
 }
 
+variable "lockbox_secrets_backend" {
+  description = "A boolean variable for enable lockbox secrets backend"
+  type        = bool
+  default     = false
+}
+
 variable "admin_password" {
   description = "The password for the Airflow"
   type        = string
